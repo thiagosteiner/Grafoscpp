@@ -140,9 +140,9 @@ void Graphs::matrix()
         adjacency_matrix[aux_i][aux_j] = 1;
         adjacency_matrix[aux_j][aux_i] = 1;
     }
-    //    for(int i = 1; i <= number_vertex; i++)
-    //        for(int j = 1; j <= number_vertex; j++)
-    //            cout << i << " " << j << " " << adjacency_matrix[i][j] << "\n";
+//        for(int i = 1; i <= number_vertex; i++)
+//            for(int j = 1; j <= number_vertex; j++)
+//                cout << i << " " << j << " " << adjacency_matrix[i][j] << "\n";
     choice = 0;
 }
 
@@ -400,7 +400,7 @@ void Graphs::Dijkstra(int root)
             it2 = find(it2,dist.end(),min);
             u = distance(dist.begin(),it2);
         }
-        cout << mark[99] << endl;
+//        cout << mark[99] << endl;
         mark[u] = 1;
         S.push_back(u+1);
         getneighbours(u+1);
@@ -415,8 +415,8 @@ void Graphs::Dijkstra(int root)
     }
     delete myheap;
 
-//    for (it2 = dist.begin(); it2 != dist.end(); it2++)
-//        cout << *it2 << "\n";
+    for (it2 = dist.begin(); it2 != dist.end(); it2++)
+        cout << *it2 << "\n";
 //    cout << endl;
 //    for (it = S.begin(); it != S.end(); it++)
 //        cout << *it << "\n";
