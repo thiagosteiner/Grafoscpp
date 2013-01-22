@@ -27,14 +27,8 @@ int main()
 //    graphs.representation_out("C:/Users/Thiago/Documents/grafo_1_bfs.txt");
 //    graphs.DFS(1);
 //    graphs.representation_out("C:/Users/Thiago/Documents/grafo_1_dfs.txt");
-    graphs.Dijkstra(1);
-//    for(int i = 0; i < graphs.number_vertex; i++)
-//    {
-//        graphs.getneighbours(i+1);
-//        if(graphs.neighbours.size() == 0)
-//            cout << i+1 << " " << "desconexo" << endl;
-//    }
-//    graphs.getneighbours(92);
+//    graphs.Dijkstra(1);
+//    graphs.getneighbours(100);
 
     return 0;
 }

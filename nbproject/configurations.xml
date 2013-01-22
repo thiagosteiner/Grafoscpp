@@ -12,6 +12,7 @@
                    projectFiles="true">
       <itemPath>Graphs.cpp</itemPath>
       <itemPath>Heap.cpp</itemPath>
+      <itemPath>Part2.cpp</itemPath>
       <itemPath>main.cpp</itemPath>
     </logicalFolder>
     <logicalFolder name="ResourceFiles"
